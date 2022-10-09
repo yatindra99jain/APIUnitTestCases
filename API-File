@@ -1,0 +1,37 @@
+Implemented sameple api's
+
+/*
+ APIS
+ 
+ https://www.appsloveworld.com/sample-rest-api-url-for-testing-with-authentication#huserlogin
+ 
+ LOGIN -
+ http://restapi.adequateshop.com/api/authaccount/login
+ {
+ "email":"Developer5@gmail.com",
+ "password":123456
+ }
+ 
+ -------------------------
+ 
+ SIGNUP -
+ http://restapi.adequateshop.com/api/authaccount/registration
+ 
+ {
+ 
+ "name":"Developer",
+ "email":"Developer5@gmail.com",
+ "password":123456
+ }
+ 
+ -------------------------
+ 
+ 
+ GET USERS -
+ http://restapi.adequateshop.com/api/users?page=1
+ 
+ headers: {
+ 'Authorization': 'Bearer <token>'
+ }
+ 
+ */
